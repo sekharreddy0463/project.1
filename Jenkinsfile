@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Fetch repository") {
             steps {
-                    git 'https://github.com/chandra635313/javawar.git'
+                    git 'https://github.com/sekharreddy0463/project.1'
                 }
             }
             stage('Build') { 
